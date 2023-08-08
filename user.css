@@ -961,8 +961,11 @@ RIGHT SIDEBAR
     display: none;
 }
 
-.main-yourLibraryX-listItem[aria-setsize="52"] {
+:not(.main-yourLibraryX-libraryIsCollapsed) .main-yourLibraryX-listItem {
     padding: 0px 8px;
+}
+.main-yourLibraryX-libraryIsCollapsed .main-yourLibraryX-listItem {
+    padding: 0;
 }
 
 .main-yourLibraryX-navItems {
@@ -1022,4 +1025,8 @@ RIGHT SIDEBAR
 
 .main-nowPlayingView-contextItemInfo {
     display: none;
+}
+
+.x-entityImage-imageContainer {
+    box-shadow: none;
 }
