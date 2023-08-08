@@ -952,3 +952,7 @@ RIGHT SIDEBAR
 .main-yourLibraryX-navItem {
     padding: 0px 12px;
 }
+
+.main-topBar-buddyFeed {
+    display: none;
+}
