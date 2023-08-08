@@ -243,7 +243,7 @@ footer.main-nowPlayingBar-container {
     border: none;
 }
 .player-controls__buttons.player-controls__buttons--new-icons {
-    margin: 0 20px 0 30px;
+    margin-right: 10px;
     width: fit-content;
 }
 .player-controls {
@@ -258,12 +258,13 @@ footer.main-nowPlayingBar-container {
     flex-grow: 1;
 }
 .main-nowPlayingBar-right {
-    width: 280px;
-    margin-left: 20px;
+    width: 320px;
+    margin-right: 8px;
 }
 
 .main-nowPlayingBar-left {
-    width: 20%;
+    width: auto;
+    min-width: 0;
 }
 button.main-playPauseButton-button {
     background: none;
@@ -970,4 +971,33 @@ RIGHT SIDEBAR
 
 .main-yourLibraryX-header {
     padding-top: 0px;
+}
+
+.main-nowPlayingWidget-nowPlaying {
+  transition: margin 150ms linear;
+}
+
+.main-nowPlayingWidget-coverExpanded {
+  margin-left: -64px !important;
+  -webkit-transform: unset !important;
+  transform: unset !important;
+}
+
+.Root__now-playing-bar {
+  margin: 0px 12px 12px 12px;
+  background: black;
+  border-radius: 12px;
+  width: auto;
+}
+
+.main-nowPlayingBar-nowPlayingBar {
+    overflow: hidden;
+    gap: 50px;
+}
+
+.main-coverSlotExpanded-container:not(.main-nowPlayingWidget-trackInfo) {
+  box-shadow: none;
+  width: calc(100% - 12px);
+  margin: 12px 0px 0px 12px;
+  border-radius: 12px;
 }

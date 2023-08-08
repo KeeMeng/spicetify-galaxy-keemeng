@@ -441,7 +441,7 @@
     isDim = !(notDimPages.some(page => pathname.includes(page)) || pathname == "/");
 
     // dim pages without art
-    bgImageWrapper.style.webkitMaskImage = `linear-gradient(rgba(0, 0, 0, ${isDim ? 0.3 : 0.75}) 0px, rgba(0, 0, 0, 0.1) 90%)`;
+    // bgImageWrapper.style.webkitMaskImage = `linear-gradient(rgba(0, 0, 0, ${isDim ? 0.3 : 0.75}) 0px, rgba(0, 0, 0, 0.1) 90%)`;
 
     // center topbar elements on dim pages
     waitForElement([".main-topBar-topbarContentWrapper"], ([topbarWrapper]) => {
