@@ -140,7 +140,7 @@ a.main-topBar-button,
 .main-topBar-historyButtons .main-topBar-button {
     width: 32px;
     height: 32px;
-    border-radius: 25%;
+    border-radius: 8px;
     background-color: rgba(var(--spice-rgb-shadow), 0.7);
     color: rgba(var(--spice-rgb-text), 0.7);
 }
@@ -170,7 +170,7 @@ MARKETPLACE RELATED
 button.marketplace-header-icon-button {
     background-color: rgba(var(--spice-rgb-shadow), 0.7);
     height: 32px;
-    width: 32px;
+    min-width: 32px;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -1000,4 +1000,11 @@ RIGHT SIDEBAR
   width: calc(100% - 12px);
   margin: 12px 0px 0px 12px;
   border-radius: 12px;
+}
+
+.main-userWidget-boxCondensed, .main-noConnection-isNotice {
+  background: none;
+  border-radius: 8px;
+  background-color: rgba(var(--spice-rgb-shadow), 0.7);
+  color: rgba(var(--spice-rgb-text), 0.7);
 }
