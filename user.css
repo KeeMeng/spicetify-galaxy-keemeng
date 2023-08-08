@@ -1029,10 +1029,14 @@ RIGHT SIDEBAR
     box-shadow: none;
 }
 
-.x-searchInput=searchInputClearIcon {
-    padding-top: 8px;
+.x-searchInput-searchInputSearchIcon svg {
+    margin-top: 8px;
 }
 
 .x-searchInput-searchInputClearButton {
-    padding-top: 4px;
+    margin-top: 4px;
+}
+
+.main-heroCard-card {
+    background: rgba(0, 0, 0, 0.3) !important;
 }
