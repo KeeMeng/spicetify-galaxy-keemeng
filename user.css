@@ -977,20 +977,20 @@ RIGHT SIDEBAR
 }
 
 .main-nowPlayingWidget-nowPlaying {
-  transition: margin 150ms linear;
+    transition: margin 150ms linear;
 }
 
 .main-nowPlayingWidget-coverExpanded {
-  margin-left: -64px !important;
-  -webkit-transform: unset !important;
-  transform: unset !important;
+    margin-left: -64px !important;
+    -webkit-transform: unset !important;
+    transform: unset !important;
 }
 
 .Root__now-playing-bar {
-  margin: 0px 12px 12px 12px;
-  background: black;
-  border-radius: 12px;
-  width: auto;
+    margin: 0px 12px 12px 12px;
+    background: black;
+    border-radius: 12px;
+    width: auto;
 }
 
 .main-nowPlayingBar-nowPlayingBar {
@@ -999,28 +999,28 @@ RIGHT SIDEBAR
 }
 
 .main-coverSlotExpanded-container:not(.main-nowPlayingWidget-trackInfo) {
-  box-shadow: none;
-  width: calc(100% - 12px);
-  margin: 12px 0px 0px 12px;
-  border-radius: 12px;
+    box-shadow: none;
+    width: calc(100% - 12px);
+    margin: 12px 0px 0px 12px;
+    border-radius: 12px;
 }
 
 .main-userWidget-boxCondensed, .main-noConnection-isNotice {
-  background: none;
-  border-radius: 8px;
-  background-color: rgba(var(--spice-rgb-shadow), 0.7) !important;
-  color: rgba(var(--spice-rgb-text), 0.7);
+    background: none;
+    border-radius: 8px;
+    background-color: rgba(var(--spice-rgb-shadow), 0.7) !important;
+    color: rgba(var(--spice-rgb-text), 0.7);
 }
 
 .gWUxbU2cIHAajHxsVLMZ {
-  width: auto;
+    width: auto;
 }
 
 .main-buddyFeed-container {
-  margin-right: 12px;
-  width: calc(100% - 12px) !important;
-  margin-top: 16px;
-  height: calc(100% - 16px);
+    margin-right: 12px;
+    width: calc(100% - 12px) !important;
+    margin-top: 16px;
+    height: calc(100% - 16px);
 }
 
 .main-nowPlayingView-contextItemInfo {
