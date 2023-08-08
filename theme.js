@@ -267,9 +267,9 @@
     scrollNode.addEventListener("scroll", () => {
       // dim
       if (!isDim) {
-        bgContainer.children[0].style.webkitMaskImage = `linear-gradient(rgba(0, 0, 0, ${
-          0.75 - scrollNode.scrollTop / 1000 < 0.3 ? 0.3 : 0.75 - scrollNode.scrollTop / 1000
-        }) 0px, rgba(0, 0, 0, 0.1) 90%)`;
+        // bgContainer.children[0].style.webkitMaskImage = `linear-gradient(rgba(0, 0, 0, ${
+        //   0.75 - scrollNode.scrollTop / 1000 < 0.3 ? 0.3 : 0.75 - scrollNode.scrollTop / 1000
+        // }) 0px, rgba(0, 0, 0, 0.1) 90%)`;
       }
       // fade
       if (scrollNode.scrollTop == 0) {
@@ -282,19 +282,19 @@
     });
   });
 
-  waitForElement([".Root__nav-bar .os-viewport.os-viewport-native-scrollbars-invisible"], ([scrollNode]) => {
-    scrollNode.setAttribute("fade", "bottom");
-    scrollNode.addEventListener("scroll", () => {
-      // fade
-      if (scrollNode.scrollTop == 0) {
-        scrollNode.setAttribute("fade", "bottom");
-      } else if (scrollNode.scrollHeight - scrollNode.scrollTop - scrollNode.clientHeight == 0) {
-        scrollNode.setAttribute("fade", "top");
-      } else {
-        scrollNode.setAttribute("fade", "full");
-      }
-    });
-  });
+  // waitForElement([".Root__nav-bar .os-viewport.os-viewport-native-scrollbars-invisible"], ([scrollNode]) => {
+  //   scrollNode.setAttribute("fade", "bottom");
+  //   scrollNode.addEventListener("scroll", () => {
+  //     // fade
+  //     if (scrollNode.scrollTop == 0) {
+  //       scrollNode.setAttribute("fade", "bottom");
+  //     } else if (scrollNode.scrollHeight - scrollNode.scrollTop - scrollNode.clientHeight == 0) {
+  //       scrollNode.setAttribute("fade", "top");
+  //     } else {
+  //       scrollNode.setAttribute("fade", "full");
+  //     }
+  //   });
+  // });
 
   waitForElement([".Root__nav-right-sidebar .os-viewport.os-viewport-native-scrollbars-invisible"], ([scrollNode]) => {
     scrollNode.setAttribute("fade", "bottom");
