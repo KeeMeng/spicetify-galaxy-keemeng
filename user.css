@@ -288,6 +288,7 @@ button.main-playPauseButton-button {
 /* connect bar */
 .main-connectBar-connectBar {
     border-radius: 0;
+    dislay: none;
 }
 /*
 -------------------
