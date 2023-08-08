@@ -827,7 +827,7 @@ YOUR LIBRARY X
     padding: 0 !important;
 }
 .main-navBar-mainNav {
-    padding-top: 25px;
+    padding-top: 5px;
 }
 
 /* font size and weight */
@@ -946,4 +946,9 @@ RIGHT SIDEBAR
         rgba(var(--spice-rgb-selected-row), 0.07) 60%,
         transparent 100%
     );
+}
+
+
+.main-yourLibraryX-navItem {
+    padding: 0px 12px;
 }
