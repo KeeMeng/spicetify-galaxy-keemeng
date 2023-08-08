@@ -928,7 +928,7 @@ RIGHT SIDEBAR
 
 /* set transparent background for section containers */
 .Root__right-sidebar {
-    background: linear-gradient(rgba(var(--spice-rgb-sidebar), 0.3) 50%, transparent) !important;
+/*    background: linear-gradient(rgba(var(--spice-rgb-sidebar), 0.3) 50%, transparent) !important;*/
 }
 
 /* fix header padding */
@@ -1007,4 +1007,19 @@ RIGHT SIDEBAR
   border-radius: 8px;
   background-color: rgba(var(--spice-rgb-shadow), 0.7) !important;
   color: rgba(var(--spice-rgb-text), 0.7);
+}
+
+.gWUxbU2cIHAajHxsVLMZ {
+  width: auto;
+}
+
+.main-buddyFeed-container {
+  margin-right: 12px;
+  width: calc(100% - 12px) !important;
+  margin-top: 16px;
+  height: calc(100% - 16px);
+}
+
+.main-nowPlayingView-contextItemInfo {
+    display: none;
 }
