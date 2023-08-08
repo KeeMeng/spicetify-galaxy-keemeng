@@ -311,14 +311,14 @@
   });
 
   // create edit playlist topbar button
-  const playlistEdit = new Spicetify.Topbar.Button("edit-playlist", "edit", () => {
+  const playlistEdit = new Spicetify.Topbar.Button("Edit Playlist Background", "edit", () => {
     const button = document.querySelector(".main-entityHeader-titleButton");
     button.click();
   });
   playlistEdit.element.classList.toggle("hidden", true);
 
   // create edit home topbar button
-  const homeEdit = new Spicetify.Topbar.Button("edit-home", "edit", () => {
+  const homeEdit = new Spicetify.Topbar.Button("Edit Home Background", "edit", () => {
     const content = document.createElement("div");
     content.innerHTML = `
     <div class="main-playlistEditDetailsModal-albumCover" id="home-select">
