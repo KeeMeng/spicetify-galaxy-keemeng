@@ -830,6 +830,7 @@ YOUR LIBRARY X
 }
 .main-navBar-mainNav {
     padding-top: 5px;
+    gap: 0px;
 }
 
 /* font size and weight */
@@ -957,4 +958,16 @@ RIGHT SIDEBAR
 
 .main-topBar-buddyFeed {
     display: none;
+}
+
+.main-yourLibraryX-listItem {
+    padding: 0px 8px;
+}
+
+.main-yourLibraryX-navItems {
+    padding-bottom: 0px;
+}
+
+.main-yourLibraryX-header {
+    padding-top: 0px;
 }
