@@ -17,7 +17,7 @@ NAVIGATION BAR
 -------------------
 */
 .Root__nav-bar {
-    background: linear-gradient(rgba(var(--spice-rgb-sidebar), 0.3) 50%, transparent) !important;
+    background: rgba(var(--spice-rgb-sidebar), 0.3) !important;
     border-radius: 0 !important;
 }
 .main-rootlist-rootlistDividerContainer {
