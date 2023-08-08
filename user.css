@@ -986,6 +986,10 @@ RIGHT SIDEBAR
     transform: unset !important;
 }
 
+.main-nowPlayingWidget-coverExpanded .main-coverSlotCollapsed-container {
+    opacity: 0;
+}
+
 .Root__now-playing-bar {
     margin: 0px 12px 12px 12px;
     background: black;
@@ -994,7 +998,6 @@ RIGHT SIDEBAR
 }
 
 .main-nowPlayingBar-nowPlayingBar {
-    overflow: hidden;
     gap: 50px;
 }
 
