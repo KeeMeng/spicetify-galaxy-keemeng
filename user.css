@@ -961,7 +961,7 @@ RIGHT SIDEBAR
     display: none;
 }
 
-.main-yourLibraryX-listItem {
+.main-yourLibraryX-listItem[aria-setsize="52"] {
     padding: 0px 8px;
 }
 
