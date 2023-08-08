@@ -786,10 +786,6 @@ a.main-topBar-navLink:hover {
     width: 18px;
     height: 18px;
 }
-.Root__top-container {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
 /* hide buddy feed add friends background */
 .SQHCRmgNjRywo1Lt7rP3 {
     background: transparent !important;
@@ -827,7 +823,7 @@ YOUR LIBRARY X
 
 /* remove top-container padding */
 .Root__top-container {
-    padding: 0 !important;
+    padding: 0px 12px 0px 0px !important;
 }
 .main-navBar-mainNav {
     padding-top: 5px;
@@ -991,7 +987,7 @@ RIGHT SIDEBAR
 }
 
 .Root__now-playing-bar {
-    margin: 0px 12px 12px 12px;
+    margin: 0px 0px 12px 12px;
     background: black;
     border-radius: 12px;
     width: auto;
@@ -1020,8 +1016,7 @@ RIGHT SIDEBAR
 }
 
 .main-buddyFeed-container {
-    margin-right: 12px;
-    width: calc(100% - 12px) !important;
+    width: 100% !important;
     margin-top: 16px;
     height: calc(100% - 16px);
 }
