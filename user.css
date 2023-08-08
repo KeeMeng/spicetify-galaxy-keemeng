@@ -824,6 +824,7 @@ YOUR LIBRARY X
 /* remove top-container padding */
 .Root__top-container {
     padding: 0px 12px 0px 0px !important;
+    gap: 0;
 }
 .main-navBar-mainNav {
     padding-top: 5px;
@@ -1000,7 +1001,7 @@ RIGHT SIDEBAR
 .main-coverSlotExpanded-container:not(.main-nowPlayingWidget-trackInfo) {
     box-shadow: none;
     width: calc(100% - 12px);
-    margin: 12px 0px 0px 12px;
+    margin: 0px 0px 0px 12px;
     border-radius: 12px;
 }
 
@@ -1018,7 +1019,8 @@ RIGHT SIDEBAR
 .main-buddyFeed-container {
     width: 100% !important;
     margin-top: 16px;
-    height: calc(100% - 16px);
+    margin-bottom: 12px;
+    height: calc(100% - 28px);
 }
 
 .main-nowPlayingView-contextItemInfo {
