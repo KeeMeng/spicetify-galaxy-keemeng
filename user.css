@@ -277,10 +277,10 @@ button.main-playPauseButton-button {
 }
 /* progress bar moves smoothly */
 .x-progressBar-fillColor {
-    transition: transform 1s linear;
+    transition: transform 0.1s linear;
 }
 .progress-bar__slider {
-    transition: left 1s linear;
+    transition: left 0.1s linear;
 }
 .playback-progressbar-isInteractive .DuvrswZugGajIFNXObAr .x-progressBar-fillColor,
 .playback-progressbar-isInteractive .DuvrswZugGajIFNXObAr .progress-bar__slider {
