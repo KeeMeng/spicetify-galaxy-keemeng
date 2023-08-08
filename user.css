@@ -1033,3 +1033,11 @@ RIGHT SIDEBAR
 .x-entityImage-imageContainer {
     box-shadow: none;
 }
+
+.x-searchInput=searchInputClearIcon {
+    padding-top: 8px;
+}
+
+.x-searchInput-searchInputClearButton {
+    padding-top: 4px;
+}
