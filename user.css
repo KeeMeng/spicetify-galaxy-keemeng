@@ -1019,8 +1019,8 @@ RIGHT SIDEBAR
 .main-buddyFeed-container {
     width: 100% !important;
     margin-top: 16px;
-    margin-bottom: 12px;
-    height: calc(100% - 28px);
+    margin-bottom: 8px;
+    height: calc(100% - 24px);
     border-radius: 12px;
 }
 
@@ -1049,10 +1049,19 @@ RIGHT SIDEBAR
 }
 
 .main-nowPlayingView-content.main-nowPlayingView-gradient {
-    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,transparent), to(rgba(var(--spice-rgb-shadow), 0.8))) var(--background-base);
-    background: linear-gradient(transparent 0%,rgba(var(--spice-rgb-shadow), 0.8) 100%) var(--background-base);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), to(rgba(var(--spice-rgb-shadow), 0.8))) var(--background-base);
+    background: linear-gradient(transparent 0%, rgba(var(--spice-rgb-shadow), 0.8) 100%) var(--background-base);
 }
 
 .main-nowPlayingView-lyricsGradient {
     max-height: 380px;
+}
+
+.main-buddyFeed-section {
+    width: auto;
+}
+
+.lyrics-background {
+    height: calc(100% - 8px);
+    border-radius: 12px;
 }
