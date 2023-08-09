@@ -990,7 +990,7 @@ RIGHT SIDEBAR
 .Root__now-playing-bar {
     margin: 0px 0px 12px 12px;
     background: black;
-    border-radius: 12px;
+    border-radius: 8px;
     width: auto;
 }
 
@@ -1002,7 +1002,7 @@ RIGHT SIDEBAR
     box-shadow: none;
     width: calc(100% - 12px);
     margin: 0px 0px 0px 12px;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .main-userWidget-boxCondensed, .main-noConnection-isNotice {
@@ -1021,7 +1021,7 @@ RIGHT SIDEBAR
     margin-top: 16px;
     margin-bottom: 8px;
     height: calc(100% - 24px);
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .main-nowPlayingView-contextItemInfo {
@@ -1045,7 +1045,7 @@ RIGHT SIDEBAR
 }
 
 .main-buddyFeed-scrollBarContainer {
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .main-nowPlayingView-content.main-nowPlayingView-gradient {
@@ -1063,5 +1063,5 @@ RIGHT SIDEBAR
 
 .lyrics-background {
     height: calc(100% - 8px);
-    border-radius: 12px;
+    border-radius: 8px;
 }
