@@ -1021,6 +1021,7 @@ RIGHT SIDEBAR
     margin-top: 16px;
     margin-bottom: 12px;
     height: calc(100% - 28px);
+    border-radius: 12px;
 }
 
 .main-nowPlayingView-contextItemInfo {
@@ -1041,4 +1042,8 @@ RIGHT SIDEBAR
 
 .main-heroCard-card {
     background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.main-buddyFeed-scrollBarContainer {
+    border-radius: 12px;
 }
