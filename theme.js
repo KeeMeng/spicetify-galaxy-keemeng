@@ -66,10 +66,10 @@
   async function fetchCurrTrackAlbumImage() {
     console.log("galaxy: fetching current track album image...");
     const data = Spicetify.Player.data.track.metadata;
-    if (localStorage.getItem(`galaxy:tempAlbumImage:${data.album_uri.split(":")[2]}`)) {
-      setBg(localStorage.getItem(`galaxy:tempAlbumImage:${data.album_uri.split(":")[2]}`))
-      return
-    }
+    // if (localStorage.getItem(`galaxy:tempAlbumImage:${data.album_uri.split(":")[2]}`)) {
+    //   setBg(localStorage.getItem(`galaxy:tempAlbumImage:${data.album_uri.split(":")[2]}`))
+    //   return
+    // }
     setBg(data.image_xlarge_url);
     const dataHigh = await Spicetify.CosmosAsync.get(`https://api.deezer.com/search/album?q=artist:"${data.album_artist_name}" album:"${data.album_title}"`);
     let album = dataHigh.data.find(e => e.title == data.album_title)
