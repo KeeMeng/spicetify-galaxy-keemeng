@@ -1065,3 +1065,7 @@ RIGHT SIDEBAR
     height: calc(100% - 8px);
     border-radius: 8px;
 }
+
+.main-yourLibraryX-listItem p.TypeElement-mesto-textSubdued-type {
+    display: none;
+}
