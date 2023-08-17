@@ -1017,7 +1017,6 @@ RIGHT SIDEBAR
 }
 
 .main-buddyFeed-container {
-    width: 100% !important;
     margin-top: 16px;
     margin-bottom: 8px;
     height: calc(100% - 24px);
