@@ -258,8 +258,12 @@ footer.main-nowPlayingBar-container {
     flex-grow: 1;
 }
 .main-nowPlayingBar-right {
-    width: 320px;
+    width: auto;
     margin-right: 8px;
+}
+
+.volume-bar__slider-container {
+    min-width: 100px;
 }
 
 .main-nowPlayingBar-left {
