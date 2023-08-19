@@ -245,6 +245,7 @@ footer.main-nowPlayingBar-container {
 .player-controls__buttons.player-controls__buttons--new-icons {
     margin-right: 10px;
     width: fit-content;
+    margin-bottom: 0px;
 }
 .player-controls {
     flex-direction: row;
