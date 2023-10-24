@@ -270,6 +270,7 @@ footer.main-nowPlayingBar-container {
 .main-nowPlayingBar-left {
     width: auto;
     min-width: 0;
+    max-width: 30%;
 }
 button.main-playPauseButton-button {
     background: none;
@@ -1073,3 +1074,5 @@ RIGHT SIDEBAR
 .main-yourLibraryX-listItem p.TypeElement-mesto-textSubdued-type {
     display: none;
 }
+
+
