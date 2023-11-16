@@ -304,6 +304,9 @@ MAIN VIEW
 */
 .Root__main-view {
     background: none !important;
+}
+
+.main-view-container {
     -webkit-mask-image: linear-gradient(transparent 64px, rgba(0, 0, 0, 1) 84px);
 }
 [fade="bottom"] {
@@ -1075,4 +1078,6 @@ RIGHT SIDEBAR
     display: none;
 }
 
-
+.main-topBar-topbarContent {
+    gap: 16px;
+}
