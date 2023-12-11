@@ -65,7 +65,7 @@
 
   async function fetchCurrTrackAlbumImage() {
     console.log("galaxy: fetching current track album image...");
-    const data = Spicetify.Player.data.track.metadata;
+    const data = Spicetify.Player.data.item.metadata;
     // if (localStorage.getItem(`galaxy:tempAlbumImage:${data.album_uri.split(":")[2]}`)) {
     //   setBg(localStorage.getItem(`galaxy:tempAlbumImage:${data.album_uri.split(":")[2]}`))
     //   return
