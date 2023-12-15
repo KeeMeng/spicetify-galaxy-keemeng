@@ -832,7 +832,7 @@ YOUR LIBRARY X
 
 /* remove top-container padding */
 .Root__top-container {
-    padding: 0px 12px 0px 0px !important;
+    padding: 0px 14px 0px 0px !important;
     gap: 0;
 }
 .main-navBar-mainNav {
@@ -997,7 +997,7 @@ RIGHT SIDEBAR
 }
 
 .Root__now-playing-bar {
-    margin: 0px 0px 12px 12px;
+    margin: 0px 0px 14px 14px;
     background: black;
     border-radius: 8px;
     width: auto;
@@ -1027,8 +1027,7 @@ RIGHT SIDEBAR
 
 .main-buddyFeed-container {
     margin-top: 16px;
-    margin-bottom: 8px;
-    height: calc(100% - 24px);
+    margin-bottom: 14px;
     border-radius: 8px;
 }
 
@@ -1079,5 +1078,9 @@ RIGHT SIDEBAR
 }
 
 .main-topBar-topbarContent {
-    gap: 16px;
+    gap: 18px;
+}
+
+.main-topBar-container {
+    gap: 10px;
 }
