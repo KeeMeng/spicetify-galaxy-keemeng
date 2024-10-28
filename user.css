@@ -242,6 +242,11 @@ PLAYER BAR
 footer.main-nowPlayingBar-container {
     border: none;
 }
+.player-controls__buttons {
+    width: auto;
+    margin-bottom: 0px;
+    margin-right: 8px;
+}
 .player-controls__buttons.player-controls__buttons--new-icons {
     margin-right: 10px;
     width: fit-content;
@@ -250,13 +255,26 @@ footer.main-nowPlayingBar-container {
 .player-controls {
     flex-direction: row;
 }
-.main-trackInfo-container {
+/*.main-trackInfo-container {
     flex-grow: 1;
     flex-basis: 0;
+}*/
+
+.GlueDropTarget.GlueDropTarget--albums.GlueDropTarget--tracks.GlueDropTarget--episodes.GlueDropTarget--local-tracks {
+    height: 56px;
+}
+
+.main-nowPlayingBar-left {
+    flex-basis: content;
+    min-width: unset;
+    max-width: calc(50vw - 168px);
+    /*this is to make the play button at the very center for the longest song name */
+    container-type: normal;
 }
 .main-nowPlayingBar-center {
-    max-width: none;
+    max-width: 100%;
     flex-grow: 1;
+    width: unset;
 }
 .main-nowPlayingBar-right {
     width: auto;
@@ -267,11 +285,6 @@ footer.main-nowPlayingBar-container {
     min-width: 180px;
 }
 
-.main-nowPlayingBar-left {
-    width: auto;
-    min-width: 0;
-    max-width: 30%;
-}
 button.main-playPauseButton-button {
     background: none;
     color: var(--spice-text);
