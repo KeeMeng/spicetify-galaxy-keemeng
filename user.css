@@ -124,10 +124,10 @@ TOP BAR
     height: 32px;
     width: 32px;
 }
-.main-userWidget-box span,
+/*.main-userWidget-box span,
 .main-userWidget-box svg {
     display: none;
-}
+}*/
 .RfdRTSGwulyQdDepLUTT .main-userWidget-displayName,
 .RfdRTSGwulyQdDepLUTT .main-userWidget-chevron {
     display: none;
@@ -948,6 +948,7 @@ RIGHT SIDEBAR
 /* set transparent background for section containers */
 .Root__right-sidebar {
 /*    background: linear-gradient(rgba(var(--spice-rgb-sidebar), 0.3) 50%, transparent) !important;*/
+     margin-bottom: 14px;
 }
 
 /* fix header padding */
@@ -1096,4 +1097,10 @@ RIGHT SIDEBAR
 
 .main-topBar-container {
     gap: 10px;
+}
+
+.Root__globalNav {
+    margin: 0px;
+    padding-right: 0px;
+    background-color: unset;
 }
