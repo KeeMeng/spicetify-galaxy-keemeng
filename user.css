@@ -1129,8 +1129,10 @@ RIGHT SIDEBAR
     -webkit-mask-image: linear-gradient(transparent 0px, rgba(0, 0, 0, 1) 4px);
 }
 
+/*Ensure playlist text is one line*/
 .ListRowTitle__LineClamp-sc-1xe2if1-0.LineClamp,
 .ListRowDetails__LineClamp-sc-sozu4l-1.LineClamp {
+    line-clamp: 1;
     -webkit-line-clamp: 1;
 }
 
@@ -1150,6 +1152,7 @@ RIGHT SIDEBAR
     inset-inline-start: 0px;
 }
 
+/*Scrollbar margin at bottom*/
 .main-view-container__scroll-node.main-view-container__scroll-node--offset-topbar > .os-scrollbar-vertical {
     margin-bottom: 14px;
 }
