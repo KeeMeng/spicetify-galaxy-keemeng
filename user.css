@@ -317,9 +317,15 @@ MAIN VIEW
 */
 .Root__main-view {
     background: none !important;
+    border-radius: 0;
 }
 
 .main-view-container {
+/*    mask-image: linear-gradient(transparent 64px, rgba(0, 0, 0, 1) 84px);
+    -webkit-mask-image: linear-gradient(transparent 64px, rgba(0, 0, 0, 1) 84px);*/
+}
+div.main-view-container__scroll-node > div[data-overlayscrollbars-viewport] {
+    mask-image: linear-gradient(transparent 64px, rgba(0, 0, 0, 1) 84px);
     -webkit-mask-image: linear-gradient(transparent 64px, rgba(0, 0, 0, 1) 84px);
 }
 [fade="bottom"] {
@@ -508,6 +514,9 @@ PLAYLIST PAGE
 .Root__top-bar .main-playButton-PlayButton> button:hover > span,
 .Root__top-bar .main-playButton-PlayButton > button:focus > span {
     background: none !important;
+}
+.playlist-playlist-playlist {
+    margin-top: unset;
 }
 .main-entityHeader-titleButton {
     width: auto;
@@ -1103,4 +1112,15 @@ RIGHT SIDEBAR
     margin: 0px;
     padding-right: 0px;
     background-color: unset;
+}
+
+/*remove library scroll shadow*/
+.RHRitk6QC3rvuG24RAdj {
+    box-shadow: unset;
+    -webkit-box-shadow: unset;
+}
+
+.main-yourLibraryX-libraryItemContainer > div[data-overlayscrollbars-viewport] {
+    mask-image: linear-gradient(transparent 0px, rgba(0, 0, 0, 1) 4px);
+    -webkit-mask-image: linear-gradient(transparent 0px, rgba(0, 0, 0, 1) 4px);
 }
