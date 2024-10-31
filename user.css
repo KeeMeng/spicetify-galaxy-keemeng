@@ -954,10 +954,11 @@ RIGHT SIDEBAR
     padding-top: 24px;
 }
 
-/* set transparent background for section containers */
+/* set transulcent background for section containers */
 .Root__right-sidebar {
-/*    background: linear-gradient(rgba(var(--spice-rgb-sidebar), 0.3) 50%, transparent) !important;*/
-     margin-bottom: 14px;
+    background: rgba(var(--spice-rgb-sidebar), 0.3) !important;
+    margin-bottom: 14px;
+    border-radius: 8px;
 }
 
 /* fix header padding */
