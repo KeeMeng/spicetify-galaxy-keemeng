@@ -1133,3 +1133,19 @@ RIGHT SIDEBAR
 .ListRowDetails__LineClamp-sc-sozu4l-1.LineClamp {
     -webkit-line-clamp: 1;
 }
+
+/*make right sidebar translucent*/
+.IkRGajTjItEFQkRMeH6v.f2UE9n5nZcbgZrGYTU3r,
+.ffFwfKcPDbmAPLXzxzKq:before {
+    background: transparent;
+}
+
+.main-yourLibraryX-entryPoints.main-yourLibraryX-library {
+    border-radius: 0;
+}
+
+/*right drag bar*/
+.Root__right-sidebar > .LayoutResizer__resize-bar {
+    padding-right: 7px;
+    inset-inline-start: 0px;
+}
