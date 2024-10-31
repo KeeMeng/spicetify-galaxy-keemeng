@@ -648,6 +648,7 @@ img.bg-main-image {
     position: absolute;
     height: 100%;
     object-fit: cover;
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 0.9) 0, black 250px, black calc(100% - 250px), rgba(0, 0, 0, 0.9) 100%);
     -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 0.9) 0, black 250px, black calc(100% - 250px), rgba(0, 0, 0, 0.9) 100%);
 }
 .lyrics-lyrics-background {
@@ -928,10 +929,12 @@ button.search-searchCategory-carouselButton {
 /* add scroll fade to ylx and right sidebar */
 .Root__nav-bar [fade="top"],
 .Root__right-sidebar [fade="top"] {
+    mask-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 1) 20%);
     -webkit-mask-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 1) 20%);
 }
 .Root__nav-bar [fade="full"],
 .Root__right-sidebar[fade="full"] {
+    mask-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, transparent 100%);
     -webkit-mask-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, transparent 100%);
 }
 
