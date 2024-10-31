@@ -1128,3 +1128,8 @@ RIGHT SIDEBAR
     mask-image: linear-gradient(transparent 0px, rgba(0, 0, 0, 1) 4px);
     -webkit-mask-image: linear-gradient(transparent 0px, rgba(0, 0, 0, 1) 4px);
 }
+
+.ListRowTitle__LineClamp-sc-1xe2if1-0.LineClamp,
+.ListRowDetails__LineClamp-sc-sozu4l-1.LineClamp {
+    -webkit-line-clamp: 1;
+}
