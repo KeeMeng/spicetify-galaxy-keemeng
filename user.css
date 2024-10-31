@@ -1149,3 +1149,7 @@ RIGHT SIDEBAR
     padding-right: 7px;
     inset-inline-start: 0px;
 }
+
+.main-view-container__scroll-node.main-view-container__scroll-node--offset-topbar > .os-scrollbar-vertical {
+    margin-bottom: 14px;
+}
