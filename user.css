@@ -317,7 +317,10 @@ MAIN VIEW
 */
 .Root__main-view {
     background: none !important;
-    border-radius: 0;
+    border-radius: 8px 8px 0 0;
+    margin-left: 14px;
+    margin-right: 14px;
+    width: auto;
 }
 
 .main-view-container {
@@ -571,7 +574,7 @@ ARTIST PAGE
 }
 .main-entityHeader-title h1 {
     font-size: 56px !important;
-    line-height: 56px !important;
+/*    line-height: 56px !important;*/
 }
 /* hide artist avatar image */
 .main-entityHeader-creatorWrapper figure.main-avatar-avatar {
@@ -579,8 +582,10 @@ ARTIST PAGE
 }
 /* hide images */
 .under-main-view div,
-.main-entityHeader-imageContainer {
-    display: none;
+.main-entityHeader-imageContainer.main-entityHeader-gradient {
+/*    display: none;*/
+    height: 100%;
+    opacity: 0.7;
 }
 /* hide songs liked info */
 .uVh80THccLWIzZYwgUaQ {
@@ -1161,6 +1166,12 @@ RIGHT SIDEBAR
     background: none;
 }
 
-.m2grVeuHNwfGLVpaSBle {
+.m2grVeuHNwfGLVpaSBle,
+.D6IunHuzuULf_Sr88GOA {
     margin-top: unset;
+}
+
+.main-entityHeader-container.main-entityHeader-withBackgroundImage {
+    height: auto;
+    margin-top: 84px;
 }
