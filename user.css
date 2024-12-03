@@ -1175,3 +1175,8 @@ RIGHT SIDEBAR
     height: auto;
     margin-top: 84px;
 }
+
+/*Remove bottom ad*/
+._Cq69xKZBtHaaeMZXIdk {
+    display: none;
+}
