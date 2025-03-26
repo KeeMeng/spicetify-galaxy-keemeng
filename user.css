@@ -796,11 +796,11 @@ a.main-topBar-navLink {
 }
 .Root__right-sidebar:nth-child(6),
 .nav-alt .Root__right-sidebar {
-    margin-top: -64px;
+/*    margin-top: -64px;*/
 }
 .Root__nav-bar:nth-child(3),
 .nav-alt .Root__nav-bar {
-    margin-top: -64px;
+/*    margin-top: -64px;*/
 }
 .main-topBar-searchBar input.x-searchInput-searchInputInput {
     background-color: rgba(var(--spice-rgb-shadow), 0.7);
@@ -955,6 +955,7 @@ RIGHT SIDEBAR
 }
 .Root__right-sidebar aside {
     background: none;
+    border-radius: 8px;
 }
 
 /* add top padding */
@@ -1174,6 +1175,10 @@ RIGHT SIDEBAR
 .main-entityHeader-container.main-entityHeader-withBackgroundImage {
     height: auto;
     margin-top: 84px;
+}
+
+.main-view-container__scroll-node-child {
+    margin-top: 32px;
 }
 
 /*Remove bottom ad*/
